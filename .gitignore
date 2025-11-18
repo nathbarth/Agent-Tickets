@@ -1,0 +1,11 @@
+# Fichiers sensibles
+.env
+credentials.json
+token.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/

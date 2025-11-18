@@ -50,7 +50,7 @@ def main():
         print(" Utilisation des e-mails de test à la place.\n")
         emails = SAMPLE_EMAILS
 
-    # 3) Pour chaque e-mail, on appelle ton agent IA Groq
+    # 3) Pour chaque e-mail, on appelle mon agent 
     for mail in emails:
         print("\n" + "=" * 60)
         print(" Sujet du mail :", mail["subject"])

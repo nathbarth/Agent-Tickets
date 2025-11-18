@@ -42,7 +42,7 @@ def get_gmail_service():
             flow = InstalledAppFlow.from_client_secrets_file(
                 "credentials.json", SCOPES
             )
-            # Cela ouvre une fenêtre de navigateur pour te faire connecter à ton compte Gmail
+            # Cela ouvre une fenêtre de navigateur pour me faire connecter à mon compte Gmail
             creds = flow.run_local_server(port=0)
 
         # 3) On sauvegarde les credentials dans token.json pour les prochaines fois
